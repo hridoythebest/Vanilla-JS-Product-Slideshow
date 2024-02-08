@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 4rem;
+}
+
+    .small-img img {
+        height: 92px;
+        margin: 10px 0;
+        cursor: pointer;
+        display: block;
+        opacity: .6;
+    }
+
+    .small-img img:hover {
+        opacity: 1;
+    }
+
+
+    .small-img {
+        /* float: left; */
+        display: flex;
+    }
+
+    .product {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+    }
+
+    .img-container img {
+        height: 500px;
+        background: #f8f8f8;
+    }
+
+    .img-container {
+        /* float: right; */
+        padding: 10px;
+    }
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Product Slideshow</title>
+  </head>
+  <body>
+
+    <h1>Product Slideshow JS</h1>
+    <div class="product">
+        <div class="img-container">
+            <img id="imageBox" src="img/mrch.28.png" alt="" />
+          </div>
+      <div class="small-img">
+        <img src="img/mrch.28.png" alt="" onclick="productSlide(this)" />
+        <img src="img/mrch.29.png" alt="" onclick="productSlide(this)" />
+        <img src="img/mrch.30.png" alt="" onclick="productSlide(this)" />
+        <img src="img/mrch.31.png" alt="" onclick="productSlide(this)" />
+        <img src="img/mrch.32.png" alt="" onclick="productSlide(this)" />
+      </div>
+
+    </div>
+
+    <script>
+
+      function productSlide(smallImg) {
+        var fullImg = document.getElementById('imageBox');
+        fullImg.src = smallImg.src;
+      }
+
+    </script>
+
+  </body>
+</html>
